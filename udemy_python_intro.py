@@ -16,4 +16,6 @@ Python setup on Machines.
 def  add(*arg):
     return sum(arg)
 
-add(1,2,3,4,5,6,7)
+print(add(1,2,3,4,5,6,7))
+
+print(add(*[10,10,10,10,10,10,10,10]))
