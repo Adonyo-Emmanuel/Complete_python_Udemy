@@ -19,3 +19,5 @@ def  add(*arg):
 print(add(1,2,3,4,5,6,7))
 
 print(add(*[10,10,10,10,10,10,10,10]))
+
+print(add(**{1:"Adonyo",2:"Emmanuel",2:"Nike",3:"Addidas"}))
